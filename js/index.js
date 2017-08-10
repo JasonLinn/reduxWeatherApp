@@ -13480,6 +13480,11 @@ var WeatherList = function (_Component) {
                 _react2.default.createElement(
                     'td',
                     null,
+                    _react2.default.createElement(_google_map2.default, { lon: lon, lat: lat })
+                ),
+                _react2.default.createElement(
+                    'td',
+                    null,
                     _react2.default.createElement(_chart2.default, { data: temps, units: 'K', color: 'orange' })
                 ),
                 _react2.default.createElement(
